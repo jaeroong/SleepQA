@@ -7,10 +7,9 @@ if __name__ == "__main__":
     
     text_corpus = "../data/training/sleep-corpus.tsv"
     # needs absolute path!
-    json_folder = "/4TB/guest1/github/SleepQA/data/bm25_json/"
-    # needs absolute path!
-    index_folder = "/4TB/guest1/github/SleepQA/data/bm25_indexes/"
-    
+    json_folder = "../data/bm25_json/"
+    index_folder = "../data/bm25_indexes/"
+
     sleep_test = "../data/training/sleep-test.csv"
     oracle_json = "../data/training/oracle/sleep-test.json"
     sleep_open = "../data/training/open_questions.csv"
